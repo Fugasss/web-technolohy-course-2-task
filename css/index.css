@@ -1,0 +1,37 @@
+#title{
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.news-title{
+    color: whitesmoke;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1.25em;
+}
+
+.news-block{
+    width: var(--col-content-width);
+}
+
+.news-block > p {
+    padding: 0 10px;
+}
+
+
+
+div.row > div:nth-child(1) > div > h1.news-title{
+    background-color: brown;
+    color: whitesmoke;
+}
+
+div.row > div:nth-child(2) > div > h1.news-title{
+    background-color: wheat;
+    color: black;
+}
+
+div.row > div:nth-child(3) > div > h1.news-title{
+    background-color: bisque;
+    color: darkblue;
+}
