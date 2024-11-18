@@ -1,0 +1,47 @@
+:root{
+    --bg-primary: #222;
+    --bg-secondary: #333;
+    --bg-tertiary: #444;
+
+    --text-primary: #ddd;
+    --text-secondary: #eee;
+    --text-tertiary: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.font-scale-1_5{
+    font-size: 1.5em;
+}
+
+.font-scale-2{
+    font-size: 2em;
+}
+
+.my-bg-primary{
+    background-color: var(--bg-primary);
+}
+
+.my-bg-secondary{
+    background-color: var(--bg-secondary);
+}
+
+.my-bg-tertiary{
+    background-color: var(--bg-tertiary);
+}
+
+.my-text-primary{
+    color: var(--text-primary);
+}
+
+.my-text-secondary{
+    color: var(--text-secondary);
+}
+
+.my-text-tertiary{
+    color: var(--text-tertiary);
+}
