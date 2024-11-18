@@ -45,3 +45,13 @@
 .my-text-tertiary{
     color: var(--text-tertiary);
 }
+
+.thumbnail {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.price-text::after{
+    content: " ₸";
+}

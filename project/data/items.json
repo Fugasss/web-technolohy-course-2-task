@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "GTA V",
+        "img":"gtav.jpg",
+        "short_description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond. ",
+        "full_description":"Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.",
+        "price":"12000",
+        "rating":"5"
+    },
+    {
+        "id": 2,
+        "name": "Space Engineers",
+        "img":"se.jpg",
+        "short_description": "Space Engineers is an open world sandbox game based on creativity and exploration.",
+        "full_description":"Players build spaceships, space stations, planetary outposts of various sizes and purposes, pilot ships and travel through space to explore planets and collect resources for survival. With creative and survival modes, there is no limit to what can be built, used and explored. Space Engineers features a realistic volume-based physics engine: everything in the game can be assembled, disassembled, damaged and destroyed.",
+        "price":"5200",
+        "rating":"5"
+    },
+    {
+        "id": 3,
+        "name": "Brotato",
+        "img":"brotato.jpg",
+        "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens. Equip up to 6 weapons, choose traits and items, develop tactics, and survive until help arrives.",
+        "full_description":"A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+        "price":"1500",
+        "rating":"5"
+    },
+    {
+        "id": 4,
+        "name": "Brotato",
+        "img":"brotato.jpg",
+        "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens. Equip up to 6 weapons, choose traits and items, develop tactics, and survive until help arrives.",
+        "full_description":"A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+        "price":"1500",
+        "rating":"5"
+    },
+    {
+        "id": 5,
+        "name": "Brotato",
+        "img":"brotato.jpg",
+        "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens. Equip up to 6 weapons, choose traits and items, develop tactics, and survive until help arrives.",
+        "full_description":"A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+        "price":"1500",
+        "rating":"5"
+    },
+    {
+        "id": 6,
+        "name": "Brotato",
+        "img":"brotato.jpg",
+        "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens. Equip up to 6 weapons, choose traits and items, develop tactics, and survive until help arrives.",
+        "full_description":"A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+        "price":"1500",
+        "rating":"5"
+    },
+    {
+        "id": 7,
+        "name": "Brotato",
+        "img":"brotato.jpg",
+        "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens. Equip up to 6 weapons, choose traits and items, develop tactics, and survive until help arrives.",
+        "full_description":"A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+        "price":"1500",
+        "rating":"5"
+    }
+]
