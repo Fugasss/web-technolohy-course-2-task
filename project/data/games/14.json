@@ -1,0 +1,8 @@
+{
+    "id": 14,
+    "name": "Portal 2",
+    "imgs": ["portal2.jpg", "portal2_2.webp", "portal2_3.jpeg"],
+    "full_description": "Portal 2 is the sequel to the award-winning game Portal. Navigate through test chambers and unravel a humorous story.",
+    "price": "1000",
+    "rating": "5"
+}

@@ -1,0 +1,8 @@
+{
+    "id": 12,
+    "name": "Hollow Knight",
+    "imgs": ["hollowknight.png", "hollowknight2.webp", "hollowknight3.jpg"],
+    "full_description": "Explore the vast, ruined kingdom of Hallownest in Hollow Knight and uncover ancient secrets while battling fearsome foes.",
+    "price": "2200",
+    "rating": "5"
+}

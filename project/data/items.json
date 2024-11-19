@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "GTA V",
+        "img": "gtav.jpg",
+        "short_description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond.",
+        "full_description": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.",
+        "price": "12000",
+        "rating": "5"
+    },
+    {
+        "id": 2,
+        "name": "Space Engineers",
+        "img": "se.jpg",
+        "short_description": "Space Engineers is an open world sandbox game based on creativity and exploration.",
+        "full_description": "Players build spaceships, space stations, planetary outposts of various sizes and purposes, pilot ships and travel through space to explore planets and collect resources for survival. With creative and survival modes, there is no limit to what can be built, used and explored. Space Engineers features a realistic volume-based physics engine: everything in the game can be assembled, disassembled, damaged and destroyed.",
+        "price": "5200",
+        "rating": "5"
+    },
+    {
+        "id": 3,
+        "name": "Brotato",
+        "img": "brotato.jpg",
+        "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens.",
+        "full_description": "A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+        "price": "1500",
+        "rating": "5"
+    },
+    {
+        "id": 4,
+        "name": "The Witcher 3: Wild Hunt",
+        "img": "witcher.jpg",
+        "short_description": "An open-world RPG where you play as Geralt, a monster hunter in search of his adopted daughter.",
+        "full_description": "The Witcher 3: Wild Hunt is a story-driven open-world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences.",
+        "price": "3000",
+        "rating": "5"
+    },
+    {
+        "id": 5,
+        "name": "Cyberpunk 2077",
+        "img": "cyberpunk2077.jpg",
+        "short_description": "An open-world action-adventure game set in Night City, a megalopolis obsessed with power and body modifications.",
+        "full_description": "In Cyberpunk 2077, you play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
+        "price": "8000",
+        "rating": "4"
+    },
+    {
+        "id": 6,
+        "name": "Minecraft",
+        "img": "minecraft.png",
+        "short_description": "A sandbox game that lets players build, explore, and survive in a blocky, procedurally generated 3D world.",
+        "full_description": "Minecraft allows players to craft and build structures from textured cubes in a 3D procedurally generated world. Other activities include exploration, resource gathering, crafting, and combat.",
+        "price": "2600",
+        "rating": "5"
+    },
+    {
+        "id": 7,
+        "name": "Stardew Valley",
+        "img": "stardewvalley.png",
+        "short_description": "A farming simulation game with elements of exploration, crafting, and relationships.",
+        "full_description": "You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life.",
+        "price": "1500",
+        "rating": "5"
+    },
+    {
+        "id": 8,
+        "name": "Hades",
+        "img": "hades.jpg",
+        "short_description": "A roguelike dungeon crawler where you play as Zagreus, the son of Hades, trying to escape the Underworld.",
+        "full_description": "Hades combines the best aspects of Supergiant’s critically acclaimed titles to deliver a truly unique roguelike experience.",
+        "price": "2000",
+        "rating": "5"
+    },
+    {
+        "id": 9,
+        "name": "Elden Ring",
+        "img": "eldenring.jpg",
+        "short_description": "An open-world action RPG created by FromSoftware in collaboration with George R.R. Martin.",
+        "full_description": "Journey through the Lands Between in Elden Ring and create your path to power. Fight colossal enemies and unravel mysteries in this dark fantasy world.",
+        "price": "7200",
+        "rating": "5"
+    },
+    {
+        "id": 10,
+        "name": "Among Us",
+        "img": "amongus.jpg",
+        "short_description": "A multiplayer game where players work together to complete tasks while impostors try to sabotage them.",
+        "full_description": "Play as a crewmate or an impostor on a spaceship in this social deduction game. Complete your tasks or deceive others to win.",
+        "price": "500",
+        "rating": "4"
+    },
+    {
+        "id": 11,
+        "name": "Celeste",
+        "img": "celeste.png",
+        "short_description": "A platformer about climbing a mountain while facing personal challenges.",
+        "full_description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain in this challenging platformer.",
+        "price": "1500",
+        "rating": "5"
+    },
+    {
+        "id": 12,
+        "name": "Hollow Knight",
+        "img": "hollowknight.png",
+        "short_description": "An action-adventure game set in a vast interconnected world full of mysteries and challenges.",
+        "full_description": "Explore the vast, ruined kingdom of Hallownest in Hollow Knight and uncover ancient secrets while battling fearsome foes.",
+        "price": "2200",
+        "rating": "5"
+    },
+    {
+        "id": 13,
+        "name": "Red Dead Redemption 2",
+        "img": "rdr2.jpg",
+        "short_description": "An epic tale of life in America’s unforgiving heartland.",
+        "full_description": "Red Dead Redemption 2 is an open-world action-adventure game set in the late 1800s. Play as Arthur Morgan, an outlaw on the run.",
+        "price": "10000",
+        "rating": "5"
+    },
+    {
+        "id": 14,
+        "name": "Portal 2",
+        "img": "portal2.jpg",
+        "short_description": "A puzzle-platformer where you solve challenges using a portal gun.",
+        "full_description": "Portal 2 is the sequel to the award-winning game Portal. Navigate through test chambers and unravel a humorous story.",
+        "price": "1000",
+        "rating": "5"
+    },
+    {
+        "id": 15,
+        "name": "DOOM Eternal",
+        "img": "doometernal.jpg",
+        "short_description": "A fast-paced first-person shooter where you battle demonic forces.",
+        "full_description": "DOOM Eternal is the ultimate combination of speed and power, offering an intense and satisfying combat experience.",
+        "price": "4500",
+        "rating": "5"
+    },
+    {
+        "id": 16,
+        "name": "Terraria",
+        "img": "terraria.jpg",
+        "short_description": "An action-adventure sandbox game where you can explore, build, and fight.",
+        "full_description": "Terraria offers a mix of classic action and sandbox gameplay. Dig, fight, explore, and build in a procedurally generated 2D world.",
+        "price": "1000",
+        "rating": "5"
+    },
+    {
+        "id": 17,
+        "name": "Subnautica",
+        "img": "subnautica.jpg",
+        "short_description": "An underwater open-world survival adventure game.",
+        "full_description": "Subnautica takes you to an alien ocean world where you must survive, build, and uncover secrets in the depths.",
+        "price": "3500",
+        "rating": "5"
+    },
+    {
+        "id": 18,
+        "name": "Factorio",
+        "img": "factorio.jpg",
+        "short_description": "A game about building and managing automated factories.",
+        "full_description": "In Factorio, design and manage complex production chains while protecting your factories from alien threats.",
+        "price": "2100",
+        "rating": "5"
+    }
+]

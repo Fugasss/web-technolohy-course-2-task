@@ -1,0 +1,8 @@
+{
+    "id": 10,
+    "name": "Among Us",
+    "imgs": ["amongus.jpg", "amongus2.jpg", "amongus3.jpg"],
+    "full_description": "Play as a crewmate or an impostor on a spaceship in this social deduction game. Complete your tasks or deceive others to win.",
+    "price": "500",
+    "rating": "4"
+}
