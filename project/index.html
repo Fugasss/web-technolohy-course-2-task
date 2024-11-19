@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-static-top my-bg-tertiary">
         <div class="container-fluid font-scale-1_5">
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" onclick="window.$page_loader.homeHtml()">
                 <img src="images/icon.png" alt="Logo" width="48" height="48" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link my-text-tertiary " aria-current="page" href="#">Home</a>
+                        <a class="nav-link my-text-tertiary " aria-current="page" href="#" onclick="window.$page_loader.homeHtml()">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link my-text-tertiary" href="#">Categories</a>
@@ -39,22 +39,25 @@
         </div>
     </nav>
 
-    <div id="main-content" class="container-fluid mb-5">
+    <div id="main-content" class="container-fluid mb-lg-5 mb-md-3 mb-sm-2 mb-xs-1">
     </div>
 
-    <footer id="footer" class="panel panel-default">
+    <footer id="footer" class="panel panel-default bottom">
         <div class="container-fluid my-bg-tertiary">
             <div class="text-center p-1">
-                © 2024 Copyright
+                © 2024 Made For WEB Technologies Exam
             </div>
         </div>
 
 
     </footer>
 
-
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/utils.js"></script>
     <script src="js/ajaxApi.js"></script>
+    <script src="js/homepage.js"></script>
+    <script src="js/gamepage.js"></script>
     <script src="js/main.js"></script>
 </body>
 

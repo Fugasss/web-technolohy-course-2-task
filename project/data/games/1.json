@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "name": "GTA V",
+    "imgs": ["gtav.jpg", "gtav2.jpg", "gtav3.jpg", "gtav4.jpg"],
+    "full_description": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.",
+    "price": "12000",
+    "rating": "5"
+}

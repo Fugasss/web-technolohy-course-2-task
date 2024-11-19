@@ -1,0 +1,8 @@
+{
+    "id": 15,
+    "name": "DOOM Eternal",
+    "imgs": ["doometernal.jpg", "doometernal2.jpg", "doometernal3.jpg"],
+    "full_description": "DOOM Eternal is the ultimate combination of speed and power, offering an intense and satisfying combat experience.",
+    "price": "4500",
+    "rating": "5"
+}

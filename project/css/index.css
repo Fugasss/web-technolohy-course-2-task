@@ -1,4 +1,4 @@
-:root{
+:root {
     --bg-primary: #222;
     --bg-secondary: #333;
     --bg-tertiary: #444;
@@ -8,41 +8,41 @@
     --text-tertiary: #fff;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     color: var(--text-primary);
 }
 
-.font-scale-1_5{
+.font-scale-1_5 {
     font-size: 1.5em;
 }
 
-.font-scale-2{
+.font-scale-2 {
     font-size: 2em;
 }
 
-.my-bg-primary{
+.my-bg-primary {
     background-color: var(--bg-primary);
 }
 
-.my-bg-secondary{
+.my-bg-secondary {
     background-color: var(--bg-secondary);
 }
 
-.my-bg-tertiary{
+.my-bg-tertiary {
     background-color: var(--bg-tertiary);
 }
 
-.my-text-primary{
+.my-text-primary {
     color: var(--text-primary);
 }
 
-.my-text-secondary{
+.my-text-secondary {
     color: var(--text-secondary);
 }
 
-.my-text-tertiary{
+.my-text-tertiary {
     color: var(--text-tertiary);
 }
 
@@ -52,6 +52,49 @@
     object-fit: cover;
 }
 
-.price-text::after{
+.price-text::after {
     content: " ₸";
+}
+
+.img-carousel-item {
+    height: 512px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .img-carousel-item {
+        height: 512px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .img-carousel-item{
+        height: 512px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .img-carousel-item{
+        height: 600px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .img-carousel-item{
+        height: 650px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .img-carousel-item{
+        height: 700px;
+    }
 }

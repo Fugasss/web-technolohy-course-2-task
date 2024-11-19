@@ -1,0 +1,8 @@
+{
+    "id": 6,
+    "name": "Minecraft",
+    "imgs": ["minecraft.png", "minecraft2.png", "minecraft3.jpg"],
+    "full_description": "Minecraft allows players to craft and build structures from textured cubes in a 3D procedurally generated world. Other activities include exploration, resource gathering, crafting, and combat.",
+    "price": "2600",
+    "rating": "5"
+}

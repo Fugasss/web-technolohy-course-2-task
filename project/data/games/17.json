@@ -1,0 +1,8 @@
+{
+    "id": 17,
+    "name": "Subnautica",
+    "imgs": ["subnautica.jpg", "subnautica2.jpg", "subnautica3.jpg"],
+    "full_description": "Subnautica takes you to an alien ocean world where you must survive, build, and uncover secrets in the depths.",
+    "price": "3500",
+    "rating": "5"
+}

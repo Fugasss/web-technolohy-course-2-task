@@ -1,0 +1,8 @@
+{
+    "id": 8,
+    "name": "Hades",
+    "imgs": ["hades.jpg", "hades2.jpg", "hades3.png"],
+    "full_description": "Hades combines the best aspects of Supergiant’s critically acclaimed titles to deliver a truly unique roguelike experience.",
+    "price": "2000",
+    "rating": "5"
+}

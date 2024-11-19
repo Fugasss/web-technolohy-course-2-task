@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+        <div id="image-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              {{carousel_images}}
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#image-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#image-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+        <div class="row"><h2>{{game_name}}</h2></div>
+        <div class="row"><p>{{game_full_description}}</p></div>
+        <div class="row"><p>{{game_rating}}</p></div>
+        <div class="row"><h3 class="price-text">{{game_price}}</h3></div>
+    </div>
+
+</div>

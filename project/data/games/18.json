@@ -1,0 +1,8 @@
+{
+    "id": 18,
+    "name": "Factorio",
+    "imgs": ["factorio.jpg", "factorio2.webp", "factorio3.jpg"],
+    "full_description": "In Factorio, design and manage complex production chains while protecting your factories from alien threats.",
+    "price": "2100",
+    "rating": "5"
+}

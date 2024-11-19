@@ -1,0 +1,8 @@
+{
+    "id": 9,
+    "name": "Elden Ring",
+    "imgs": ["eldenring.jpg", "eldenring1.jpg", "eldenring2.jpg"],
+    "full_description": "Journey through the Lands Between in Elden Ring and create your path to power. Fight colossal enemies and unravel mysteries in this dark fantasy world.",
+    "price": "7200",
+    "rating": "5"
+}

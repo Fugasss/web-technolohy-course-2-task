@@ -1,0 +1,8 @@
+{
+    "id": 2,
+    "name": "Space Engineers",
+    "imgs": ["se.jpg", "se2.png", "se3.jpg", "se4.jpg"],
+    "full_description": "Players build spaceships, space stations, planetary outposts of various sizes and purposes, pilot ships and travel through space to explore planets and collect resources for survival. With creative and survival modes, there is no limit to what can be built, used and explored. Space Engineers features a realistic volume-based physics engine: everything in the game can be assembled, disassembled, damaged and destroyed.",
+    "price": "5200",
+    "rating": "5"
+}

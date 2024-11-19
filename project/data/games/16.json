@@ -1,0 +1,8 @@
+{
+    "id": 16,
+    "name": "Terraria",
+    "imgs": ["terraria.jpg", "terraria2.webp", "terraria3.gif", "terraria4.jpg"],
+    "full_description": "Terraria offers a mix of classic action and sandbox gameplay. Dig, fight, explore, and build in a procedurally generated 2D world.",
+    "price": "1000",
+    "rating": "5"
+}

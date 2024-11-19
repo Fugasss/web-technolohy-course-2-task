@@ -1,0 +1,8 @@
+{
+    "id": 7,
+    "name": "Stardew Valley",
+    "imgs": ["stardewvalley.png","stardewvalley1.png", "stardewvalley2.png", "stardewvalley3.png"],
+    "full_description": "You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life.",
+    "price": "1500",
+    "rating": "5"
+}
