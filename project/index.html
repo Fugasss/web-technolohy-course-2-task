@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet">
-
     <link href="css/index.css" rel="stylesheet">
 
     <title>Home page</title>
@@ -13,10 +12,10 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-static-top my-bg-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-static-top navbar-bg">
         <div class="container-fluid font-scale-1_5">
 
-            <a class="navbar-brand" onclick="window.$page_loader.homeHtml()">
+            <a class="navbar-brand cursor-pointer" onclick="window.$page_loader.homeHtml()">
                 <img src="images/icon.png" alt="Logo" width="48" height="48" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,10 +28,10 @@
                         <a class="nav-link my-text-tertiary " aria-current="page" href="#" onclick="window.$page_loader.homeHtml()">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link my-text-tertiary" href="#">Categories</a>
+                        <a class="nav-link my-text-tertiary" href="#">Catalogue</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link my-text-tertiary" href="#">About</a>
+                        <a class="nav-link my-text-tertiary" href="#" onclick="window.$page_loader.aboutHtml()">About</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +45,7 @@
     <footer id="footer" class="panel panel-default bottom">
         <div class="container-fluid">
             <div class="text-center p-1 text-white">
-                © 2024 Made For WEB Technologies Exam
+                Fugasss © 2024 Made For WEB Technologies Exam
             </div>
         </div>
     </footer>
@@ -58,8 +57,11 @@
     <script src="js/common.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/ajaxApi.js"></script>
+
     <script src="js/homepage.js"></script>
     <script src="js/gamepage.js"></script>
+    <script src="js/aboutpage.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 

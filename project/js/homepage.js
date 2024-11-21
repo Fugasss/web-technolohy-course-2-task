@@ -33,7 +33,7 @@
       const containerTemplate = await $ajaxUtils.fetch("templates/homepage/popular/carousel_template.html", false);
       const imageTemplate = await $ajaxUtils.fetch("templates/homepage/popular/image_template.html", false);
       const indicatorTemplate = await $ajaxUtils.fetch("templates/homepage/popular/indicator_template.html", false);
-      
+
       const getRandomImage = function(game){
         const images = game.imgs;
 
@@ -76,13 +76,15 @@
     async function showHomeHtml(games) {
       const containerTemplate = await $ajaxUtils.fetch("templates/homepage/home_items_list_template.html", false);
       const itemTemplate      = await $ajaxUtils.fetch("templates/homepage/home_item_template.html", false);
+      const aboutData         = await $ajaxUtils.fetch("data/about.json");
       
       const popularGamesId = (await $ajaxUtils.fetch("data/popular.json", true)).games_id;    
       const popularGames = await loadGamesById(popularGamesId);
 
       let container = insertProperties(containerTemplate, {
         "content": generateContent(games, itemTemplate),
-        "popular": await generatePopular(popularGames.sort(() => Math.random() - 0.5))
+        "popular": await generatePopular(popularGames.sort(() => Math.random() - 0.5)),
+        "author_name" : aboutData.author_name
       });
       
       insertHtml("#main-content", container);
