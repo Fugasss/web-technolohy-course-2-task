@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is GamesReady?",
+        "answer" : "GamesReady is the online game store where you can buy a lot of interestring games."
+    },
+    {
+        "question": "How can I contact with owners?",
+        "answer" : "We have \"About\" page where you can find all contact info."
+    },
+    {
+        "question": "How can I buy games?",
+        "answer" : "At the moment this function is not working and won't be implemented in the near future."
+    }
+]
