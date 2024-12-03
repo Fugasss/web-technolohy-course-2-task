@@ -160,5 +160,50 @@
         "full_description": "In Factorio, design and manage complex production chains while protecting your factories from alien threats.",
         "price": "2100",
         "rating": "5"
+    },
+    {
+        "id": 19,
+        "name": "Overcooked 2",
+        "img": "overcooked2.avif",
+        "short_description": "A chaotic co-op cooking game where players work together to prepare and serve food under extreme conditions.",
+        "full_description": "Overcooked 2 challenges you and your friends to work as a team to serve dishes in absurd and dynamic kitchens. With new recipes, chefs, and crazy challenges, it's a recipe for fun!",
+        "price": "2500",
+        "rating": "4"
+    },
+    {
+        "id": 20,
+        "name": "Sekiro: Shadows Die Twice",
+        "img": "sekiro.jpg",
+        "short_description": "A challenging action-adventure game set in Sengoku-era Japan.",
+        "full_description": "Play as a shinobi seeking revenge in a brutal and dark world. With intense combat and stealth mechanics, Sekiro: Shadows Die Twice offers an unforgettable experience.",
+        "price": "7200",
+        "rating": "5"
+    },
+    {
+        "id": 21,
+        "name": "Slay the Spire",
+        "img": "slaythespire.jpg",
+        "short_description": "A deck-building roguelike game where you battle your way through a mysterious spire.",
+        "full_description": "Slay the Spire combines card games and roguelikes to create a unique experience. Craft a deck, face powerful foes, and uncover the secrets of the spire.",
+        "price": "2000",
+        "rating": "3"
+    },
+    {
+        "id": 22,
+        "name": "Valheim",
+        "img": "valheim.jpg",
+        "short_description": "A survival and exploration game inspired by Norse mythology.",
+        "full_description": "Explore a vast procedurally-generated world as a fallen Viking warrior. Build shelters, craft tools, and battle ancient foes in Valheim.",
+        "price": "3000",
+        "rating": "4"
+    },
+    {
+        "id": 23,
+        "name": "Papers, Please",
+        "img": "papersplease.jpg",
+        "short_description": "A dystopian document-checking simulator.",
+        "full_description": "In Papers, Please, you play as an immigration officer in a fictional totalitarian state. Make tough decisions as you balance rules, bribes, and the well-being of your family.",
+        "price": "1000",
+        "rating": "2"
     }
 ]

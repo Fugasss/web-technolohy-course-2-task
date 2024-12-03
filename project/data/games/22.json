@@ -1,0 +1,8 @@
+{
+    "id": 22,
+    "name": "Valheim",
+    "imgs": ["valheim.jpg", "valheim_2.webp", "valheim_3.jpg"],
+    "full_description": "Explore a vast procedurally-generated world as a fallen Viking warrior. Build shelters, craft tools, and battle ancient foes in Valheim.",
+    "price": "3000",
+    "rating": "4"
+}

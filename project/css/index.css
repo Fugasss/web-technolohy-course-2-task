@@ -108,6 +108,11 @@ body{
     border: 1px solid rgba(32, 32, 32, 0.21);
 }
 
+.img-carousel-item{
+    object-position: top;
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .img-carousel-item {

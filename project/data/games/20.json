@@ -1,0 +1,8 @@
+{
+    "id": 20,
+    "name": "Sekiro: Shadows Die Twice",
+    "imgs": ["sekiro.jpg", "sekiro_2.png", "sekiro_3.webp"],
+    "full_description": "Play as a shinobi seeking revenge in a brutal and dark world. With intense combat and stealth mechanics, Sekiro: Shadows Die Twice offers an unforgettable experience.",
+    "price": "7200",
+    "rating": "5"
+}

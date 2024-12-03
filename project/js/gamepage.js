@@ -14,7 +14,7 @@
 
     let result = "";
     for(let ind = 0; ind < 5; ind++){
-      result += insertProperty(starContainer, "star", (ind + 1 < rating ? filledStar : emptyStar));
+      result += insertProperty(starContainer, "star", (ind + 1 <= rating ? filledStar : emptyStar));
     }
 
     return insertProperty(ratingRow, "stars", result);
