@@ -1,0 +1,19 @@
+<div class="container-fluid mt-3">
+    <div class="row">
+      <!-- Product List -->
+      <div class="col-lg-8 col-md-12" id="cart-product-list">
+        <!-- Products will be dynamically inserted here -->
+         {{items}}
+      </div>
+  
+      <!-- Order Info -->
+      <div class="col-lg-4 col-md-12 mt-md-3 mt-lg-0">
+        <div class="card p-3 shadow">
+          <h3>Order Summary</h3>
+          <p id="total-price" class="fs-5">Total: {{total_price}}</p>
+          <button class="btn btn-primary w-100" id="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
