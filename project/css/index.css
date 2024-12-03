@@ -86,7 +86,7 @@ body{
 }
 
 .img-carousel-item {
-    height: 20rem;
+    height: 500px;
 }
 
 .cursor-pointer{
@@ -130,20 +130,20 @@ body{
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .img-carousel-item{
-        height: 600px;
+        height: 512px;
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .img-carousel-item{
-        height: 650px;
+        height: 550px;
     }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .img-carousel-item{
-        height: 700px;
+        height: 650px;
     }
 }
