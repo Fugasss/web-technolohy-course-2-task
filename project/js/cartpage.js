@@ -1,6 +1,6 @@
 (function (window) {
     const CART_STORAGE_KEY = "user_cart";
-
+    
     function getCartFromStorage() {
         const storedCart = localStorage.getItem(CART_STORAGE_KEY);
         return storedCart ? JSON.parse(storedCart) : [];
@@ -10,26 +10,35 @@
         localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cartItems));
     }
 
-    function addToCart(item) {
-        const cartItems = getCartFromStorage();
+    function addToCart(item_id) {
+        const cartItemsIds = getCartFromStorage();
 
-        // Check if the item is already in the cart
-        const existingItem = cartItems.find((cartItem) => cartItem.id === item.id);
+        const existingItem = cartItemsIds.find((cartItem) => cartItem === item_id);
         if (existingItem) {
-            existingItem.quantity += item.quantity;
+            return;
         } else {
-            cartItems.push(item);
+            cartItemsIds.push(item_id);
         }
+        
+        saveCartToStorage(cartItemsIds);
+    }
 
-        saveCartToStorage(cartItems);
+    function removeFromCart(item_id){
+        const cartItemsIds = getCartFromStorage();
+
+        const index = cartItemsIds.indexOf(item_id);
+        if (index > -1) { 
+            cartItemsIds.splice(index, 1);
+        }
+                
+        saveCartToStorage(cartItemsIds);
     }
 
     function calculateTotalPrice(cartItems) {
         let sum = 0;
 
         for (const item of cartItems) {
-            sum+=item.price;
-            
+            sum+= +item.price;
         }
 
         return sum.toString();
@@ -40,7 +49,7 @@
         for (const item of cartItems) {
             result += insertProperties(itemTemplate, {
                 "item_id": item.id,
-                "item_image": item.img,
+                "item_image": item.imgs[0],
                 "item_name": item.name,
                 "item_price": format_currency(item.price),
             });
@@ -49,27 +58,32 @@
     }
 
     async function renderCartPage(template) {
-        const cartItems = getCartFromStorage();
+        const cartItemsId = getCartFromStorage();
+        const cartItems = await window.$utils.loadGamesById(cartItemsId);
         const itemTemplate = await $ajaxUtils.fetch("templates/cartpage/cart_item_template.html", false);
 
         // Render product list
         const cartItemsHtml = generateCartItemsHtml(cartItems, itemTemplate);
-        template = insertProperties(template,{
+        let container = insertProperties(template,{
              "items": cartItemsHtml,
              "total_price": format_currency(calculateTotalPrice(cartItems))
             }); 
+
+        insertHtml("#main-content", container);
+        
     }
 
-    window.$page_loader.cartHtml = function () {
+    const CART_TEMPLATE = "templates/cartpage/cart_template.html";
+
+    window.$page_loader.cartHtml = async function () {
         showLoading("#main-content");
-        $ajaxUtils.get("templates/cartpage/cart_template.html",
-            renderCartPage,
-            false);
+        let data = await $ajaxUtils.fetch(CART_TEMPLATE, false);
+        renderCartPage(data);
     };
 
     window.$cartUtils = {
         addToCart: addToCart,
         getCartFromStorage: getCartFromStorage,
-        renderCartPage: renderCartPage
+        removeFromCart: removeFromCart,
     };
 })(window);

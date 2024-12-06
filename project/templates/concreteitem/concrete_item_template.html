@@ -22,6 +22,6 @@
         <div class="row">{{game_rating}}</div>
         
         <div class="row"><h3 class="price-text">{{game_price}}</h3></div>
-        <div class="row"><button class="col-lg-3 col-md-3 col-sm-4 col-6 ms-2 me-2 btn btn-success">Buy</button></div>
+        <div class="row"><button id="buy-button" class="col-lg-3 col-md-3 col-sm-4 col-6 ms-2 me-2 btn btn-success" onclick="window.$cartUtils.addToCart({{game_id}})">Buy</button></div>
     </div>
 </div>

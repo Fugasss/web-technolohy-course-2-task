@@ -42,7 +42,8 @@
       "game_name": game.name,
       "game_full_description": game.full_description,
       "game_rating": await generateRatingHtml(game.rating),
-      "game_price": format_currency(game.price)
+      "game_price": format_currency(game.price),
+      "game_id": game.id
     })
 
     insertHtml("#main-content", container);

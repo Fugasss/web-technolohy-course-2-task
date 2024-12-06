@@ -7,11 +7,14 @@
     --bg-secondary: #333;
     --bg-tertiary: #444;
 
-    --text-primary: #ddd;
+    --text-primary: #fff;
     --text-secondary: #eee;
-    --text-tertiary: #fff;
+    --text-tertiary: var(--text-primary);
 
     --head-border-radius: 10px;
+
+    --dot-symbol: "• ";
+    --tg-symbol: " ₸";
 }
 
 * {
@@ -20,7 +23,12 @@
     color: var(--text-primary);
 }
 
+html{
+    height: 100%;
+}
+
 body{
+    height: 100%;
     background: linear-gradient(#e66465, #38cbbc) fixed;
 }
 
@@ -39,6 +47,7 @@ body{
 }
 
 #main-content{
+    min-height: 50%;
     margin-bottom: 25rem !important;
 }
 
@@ -82,7 +91,7 @@ body{
 }
 
 .price-text::after {
-    content: " ₸";
+    content: var(--tg-symbol);
 }
 
 .img-carousel-item {
@@ -110,6 +119,10 @@ body{
 
 .img-carousel-item{
     object-position: top;
+}
+
+.dot::before{
+    content: var(--dot-symbol);
 }
 
 
