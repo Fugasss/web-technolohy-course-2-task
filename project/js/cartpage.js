@@ -10,14 +10,21 @@
         localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cartItems));
     }
 
+    function isGameInCart(item_id){
+        const cartItemsIds = getCartFromStorage();
+
+        const exists = cartItemsIds.find((cartItem) => cartItem === item_id);
+
+        return exists;
+    }
+
     function addToCart(item_id) {
         const cartItemsIds = getCartFromStorage();
 
-        const existingItem = cartItemsIds.find((cartItem) => cartItem === item_id);
-        if (existingItem) {
+        if (isGameInCart(item_id)) {
             return;
         } else {
-            cartItemsIds.push(item_id);
+           cartItemsIds.push(item_id);
         }
         
         saveCartToStorage(cartItemsIds);
@@ -33,6 +40,8 @@
                 
         saveCartToStorage(cartItemsIds);
     }
+
+   
 
     function calculateTotalPrice(cartItems) {
         let sum = 0;
@@ -85,5 +94,6 @@
         addToCart: addToCart,
         getCartFromStorage: getCartFromStorage,
         removeFromCart: removeFromCart,
+        isGameInCart: isGameInCart
     };
 })(window);
