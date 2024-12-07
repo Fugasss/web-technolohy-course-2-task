@@ -1,4 +1,3 @@
-<div class="col">
     <div class="row pt-3">
         <h1 class="text-white">
             {{project_name}}
@@ -11,23 +10,22 @@
         </h3>
     </div>
     <div class="row pt-2">
-        <h3 class="text-white">Contacts:</h3>
-        <div class="row ms-4">
-            <h4 class="col-2 text-white">Name:</h4>
-            <h4 class="col-auto text-white">{{author_name}}</h4>
+        <div class="col">
+            <h3 class="text-white">Contacts:</h3>
+            <div class="row ps-4">
+                <h4 class="text-white dot">Name: {{author_name}}</h4>
+            </div>
+            <div class="row ps-4">
+                <h4 class="text-white dot">Email: {{author_email}}</h4>
+            </div>
+            <div class="row ps-4">
+                <h4 class="text-white dot">Phone: {{author_phone}}</h4>
+            </div>
         </div>
-        <div class="row ms-4">
-            <h4 class="col-2 text-white">Email:</h4>
-            <h4 class="col-auto text-white">{{author_email}}</h4>
-        </div>
-        <div class="row ms-4">
-            <h4 class="col-2 text-white">Phone:</h4>
-            <h4 class="col-auto text-white">{{author_phone}}</h4>
-        </div>
+        
     </div> 
     <div class="row pt-5">
         <h5 class="text-white">
             {{project_description}}
         </h5>
     </div>
-</div>

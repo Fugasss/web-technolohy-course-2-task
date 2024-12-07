@@ -98,4 +98,8 @@
         true);
     };
 
+    window.$utils = {
+      loadGamesById: loadGamesById
+    };
+
 })(window);

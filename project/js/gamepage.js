@@ -14,7 +14,7 @@
 
     let result = "";
     for(let ind = 0; ind < 5; ind++){
-      result += insertProperty(starContainer, "star", (ind + 1 < rating ? filledStar : emptyStar));
+      result += insertProperty(starContainer, "star", (ind + 1 <= rating ? filledStar : emptyStar));
     }
 
     return insertProperty(ratingRow, "stars", result);
@@ -23,7 +23,6 @@
   async function showConcreteItemHtml(game) {
     const containerTemplate = await $ajaxUtils.fetch(GAME_TEMPLATE_URL, false);
     const carouselImageTemplate = await $ajaxUtils.fetch(CAROUSEL_IMAGE_TEMPLATE_URL, false);
-    
 
     let container = containerTemplate;
     let images = "";
@@ -42,10 +41,49 @@
       "game_name": game.name,
       "game_full_description": game.full_description,
       "game_rating": await generateRatingHtml(game.rating),
-      "game_price": format_currency(game.price)
-    })
+      "game_price": format_currency(game.price),
+      "game_id": game.id
+    });
 
     insertHtml("#main-content", container);
+
+    function setBuyButtonState(button){
+      button.classList.remove("btn-success");
+      button.classList.add("btn-danger");
+      button.textContent = "Remove";
+    }
+
+    
+    function setRemoveButtonState(button){
+      button.classList.remove("btn-danger");
+      button.classList.add("btn-success");
+      button.textContent = "Buy";
+    }
+
+    const buyButton = window.document.getElementById("buy-button");
+
+    const cart = window.$cartUtils;
+
+    if(!cart.isGameInCart(game.id)){
+      setRemoveButtonState(buyButton);
+    }else{
+      setBuyButtonState(buyButton);
+    }
+
+    buyButton.addEventListener("click", ()=>{
+
+      if(cart.isGameInCart(game.id)){
+        cart.removeFromCart(game.id);
+        setRemoveButtonState(buyButton);
+      }else{
+        console.log(game);
+        console.log(game.id);
+        
+        cart.addToCart(game.id);
+        setBuyButtonState(buyButton);
+      }
+      
+    });
 
   }
 

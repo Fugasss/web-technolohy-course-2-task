@@ -7,11 +7,14 @@
     --bg-secondary: #333;
     --bg-tertiary: #444;
 
-    --text-primary: #ddd;
+    --text-primary: #fff;
     --text-secondary: #eee;
-    --text-tertiary: #fff;
+    --text-tertiary: var(--text-primary);
 
     --head-border-radius: 10px;
+
+    --dot-symbol: "• ";
+    --tg-symbol: " ₸";
 }
 
 * {
@@ -20,7 +23,12 @@
     color: var(--text-primary);
 }
 
+html{
+    height: 100%;
+}
+
 body{
+    height: 100%;
     background: linear-gradient(#e66465, #38cbbc) fixed;
 }
 
@@ -39,6 +47,7 @@ body{
 }
 
 #main-content{
+    min-height: 50%;
     margin-bottom: 25rem !important;
 }
 
@@ -82,11 +91,11 @@ body{
 }
 
 .price-text::after {
-    content: " ₸";
+    content: var(--tg-symbol);
 }
 
 .img-carousel-item {
-    height: 20rem;
+    height: 500px;
 }
 
 .cursor-pointer{
@@ -108,6 +117,15 @@ body{
     border: 1px solid rgba(32, 32, 32, 0.21);
 }
 
+.img-carousel-item{
+    object-position: top;
+}
+
+.dot::before{
+    content: var(--dot-symbol);
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .img-carousel-item {
@@ -125,20 +143,20 @@ body{
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .img-carousel-item{
-        height: 600px;
+        height: 512px;
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .img-carousel-item{
-        height: 650px;
+        height: 550px;
     }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .img-carousel-item{
-        height: 700px;
+        height: 650px;
     }
 }
