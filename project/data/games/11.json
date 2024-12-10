@@ -3,6 +3,7 @@
     "name": "Celeste",
     "imgs": ["celeste.png", "celeste2.jpg", "celeste3.jpg"],
     "full_description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain in this challenging platformer.",
+    "short_description": "A platformer about climbing a mountain while facing personal challenges.",
     "price": "1500",
     "rating": "5"
 }

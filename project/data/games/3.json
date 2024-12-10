@@ -3,6 +3,7 @@
     "name": "Brotato",
     "imgs": ["brotato.jpg", "brotato3.webp", "brotato2.jpg"],
     "full_description": "A spaceship from the planet Potato crashed in an alien world. Only Potato Brotato survived - a skilled fighter who can use up to 6 weapons at a time. The starchy warrior must survive in a hostile world and hold out until his comrades arrive.",
+    "short_description": "Brotato is an arena shooter with roguelike elements where you play as a weaponized potato fighting off hordes of aliens.",
     "price": "1500",
     "rating": "5"
 }

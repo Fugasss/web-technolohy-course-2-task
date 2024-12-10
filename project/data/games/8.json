@@ -3,6 +3,7 @@
     "name": "Hades",
     "imgs": ["hades.jpg", "hades2.jpg", "hades3.png"],
     "full_description": "Hades combines the best aspects of Supergiant’s critically acclaimed titles to deliver a truly unique roguelike experience.",
+    "short_description": "A roguelike dungeon crawler where you play as Zagreus, the son of Hades, trying to escape the Underworld.",
     "price": "2000",
     "rating": "5"
 }

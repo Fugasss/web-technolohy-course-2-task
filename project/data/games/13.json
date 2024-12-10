@@ -3,6 +3,7 @@
     "name": "Red Dead Redemption 2",
     "imgs": ["rdr2.jpg", "rdr2_2.webp", "rdr2_3.jpg"],
     "full_description": "Red Dead Redemption 2 is an open-world action-adventure game set in the late 1800s. Play as Arthur Morgan, an outlaw on the run.",
+    "short_description": "An epic tale of life in America’s unforgiving heartland.",
     "price": "10000",
     "rating": "5"
 }

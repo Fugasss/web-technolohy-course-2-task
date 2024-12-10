@@ -3,6 +3,7 @@
     "name": "Cyberpunk 2077",
     "imgs": ["cyberpunk2077.jpg", "cyberpunk2077_2.jpg", "cyberpunk2077_3.jpg"],
     "full_description": "In Cyberpunk 2077, you play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
+    "short_description": "An open-world action-adventure game set in Night City, a megalopolis obsessed with power and body modifications.",
     "price": "8000",
     "rating": "4"
 }

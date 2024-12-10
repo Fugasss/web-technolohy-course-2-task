@@ -1,6 +1,4 @@
 (function (window) {
-    const ALL_GAMES_DATA_URL = "data/items.json";
-    
     async function loadGamesById(gamesId){
       const result = [];
 
@@ -19,7 +17,7 @@
       for (const game of games) {
         result += insertProperties(itemTemplate, {
             "item_id": game.id,
-            "item_image": game.img,
+            "item_image": game.imgs[0],
             "item_name": game.name,
             "item_short_description": (game.short_description.length > MAX_DESCRIPTION_LENGTH ? game.short_description.slice(0, MAX_DESCRIPTION_LENGTH) + "..." : game.short_description),
             "item_price": format_currency(game.price)
@@ -73,18 +71,18 @@
       });
     }
 
-    async function showHomeHtml(games) {
+    async function showHomeHtml(data) {
       const containerTemplate = await $ajaxUtils.fetch("templates/homepage/home_items_list_template.html", false);
       const itemTemplate      = await $ajaxUtils.fetch("templates/homepage/home_item_template.html", false);
-      const aboutData         = await $ajaxUtils.fetch("data/about.json");
       
-      const popularGamesId = (await $ajaxUtils.fetch("data/popular.json", true)).games_id;    
-      const popularGames = await loadGamesById(popularGamesId);
+      const popularGames = await loadGamesById(data.games_id);
+
+      const topGames = popularGames.slice(0, 3);
+      const otherGames = popularGames.slice(3);
 
       let container = insertProperties(containerTemplate, {
-        "content": generateContent(games, itemTemplate),
-        "popular": await generatePopular(popularGames.sort(() => Math.random() - 0.5)),
-        "author_name" : aboutData.author_name
+        "content": generateContent(otherGames, itemTemplate),
+        "popular": await generatePopular(topGames.sort(() => Math.random() - 0.5)),
       });
       
       insertHtml("#main-content", container);
@@ -93,7 +91,7 @@
     window.$page_loader.homeHtml = function (event) {
     showLoading("#main-content");
     $ajaxUtils.get(
-        ALL_GAMES_DATA_URL,
+        "data/popular.json",
         showHomeHtml,
         true);
     };

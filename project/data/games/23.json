@@ -3,6 +3,7 @@
     "name": "Papers, Please",
     "imgs": ["papersplease.jpg", "papersplease_2.png", "papersplease_3.png"],
     "full_description": "In Papers, Please, you play as an immigration officer in a fictional totalitarian state. Make tough decisions as you balance rules, bribes, and the well-being of your family.",
+    "short_description": "A dystopian document-checking simulator.",
     "price": "1000",
     "rating": "2"
 }

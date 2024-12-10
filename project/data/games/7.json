@@ -3,6 +3,7 @@
     "name": "Stardew Valley",
     "imgs": ["stardewvalley.png","stardewvalley1.png", "stardewvalley2.png", "stardewvalley3.png"],
     "full_description": "You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life.",
+    "short_description": "A farming simulation game with elements of exploration, crafting, and relationships.",
     "price": "1500",
     "rating": "5"
 }

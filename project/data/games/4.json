@@ -3,6 +3,7 @@
     "name": "The Witcher 3: Wild Hunt",
     "imgs": ["witcher.jpg", "witcher1.jpg", "witcher2.webp"],
     "full_description": "The Witcher 3: Wild Hunt is a story-driven open-world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences.",
+    "short_description": "An open-world RPG where you play as Geralt, a monster hunter in search of his adopted daughter.",
     "price": "3000",
     "rating": "5"
 }

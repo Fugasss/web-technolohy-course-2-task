@@ -15,12 +15,16 @@
 
     --dot-symbol: "• ";
     --tg-symbol: " ₸";
+
+  
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     color: var(--text-primary);
+
+    font-weight: 400;
 }
 
 html{
@@ -30,6 +34,10 @@ html{
 body{
     height: 100%;
     background: linear-gradient(#e66465, #38cbbc) fixed;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .bg-blur{
@@ -53,10 +61,17 @@ body{
 
 .font-scale-1_5 {
     font-size: 1.5em;
+    font-weight: 400;
 }
 
 .font-scale-2 {
     font-size: 2em;
+    font-weight: 500;
+}
+
+.font-scale-5 {
+    font-size: 4em;
+    font-weight: 500;
 }
 
 .my-bg-primary {
@@ -123,6 +138,10 @@ body{
 
 .dot::before{
     content: var(--dot-symbol);
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+    text-decoration: underline;
 }
 
 

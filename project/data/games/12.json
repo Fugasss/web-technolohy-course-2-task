@@ -3,6 +3,7 @@
     "name": "Hollow Knight",
     "imgs": ["hollowknight.png", "hollowknight2.webp", "hollowknight3.jpg"],
     "full_description": "Explore the vast, ruined kingdom of Hallownest in Hollow Knight and uncover ancient secrets while battling fearsome foes.",
+    "short_description": "An action-adventure game set in a vast interconnected world full of mysteries and challenges.",
     "price": "2200",
     "rating": "5"
 }
