@@ -19,7 +19,7 @@
             "item_id": game.id,
             "item_image": game.imgs[0],
             "item_name": game.name,
-            "item_short_description": (game.short_description.length > MAX_DESCRIPTION_LENGTH ? game.short_description.slice(0, MAX_DESCRIPTION_LENGTH) + "..." : game.short_description),
+            "item_short_description": game.short_description && (game.short_description.length > MAX_DESCRIPTION_LENGTH ? game.short_description.slice(0, MAX_DESCRIPTION_LENGTH) + "..." : game.short_description),
             "item_price": format_currency(game.price)
         });
       }
@@ -75,14 +75,14 @@
       const containerTemplate = await $ajaxUtils.fetch("templates/homepage/home_items_list_template.html", false);
       const itemTemplate      = await $ajaxUtils.fetch("templates/homepage/home_item_template.html", false);
       
-      const popularGames = await loadGamesById(data.games_id);
+      const popularGames = (await loadGamesById(data.games_id)).sort(() => Math.random() - 0.5);
 
       const topGames = popularGames.slice(0, 3);
       const otherGames = popularGames.slice(3);
 
       let container = insertProperties(containerTemplate, {
         "content": generateContent(otherGames, itemTemplate),
-        "popular": await generatePopular(topGames.sort(() => Math.random() - 0.5)),
+        "popular": await generatePopular(topGames),
       });
       
       insertHtml("#main-content", container);
