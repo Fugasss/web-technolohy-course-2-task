@@ -3,6 +3,7 @@
     "name": "Overcooked 2",
     "imgs": ["overcooked2.avif", "overcooked2_2.webp", "overcooked2_3.webp"],
     "full_description": "Overcooked 2 challenges you and your friends to work as a team to serve dishes in absurd and dynamic kitchens. With new recipes, chefs, and crazy challenges, it's a recipe for fun!",
+    "short_description": "A chaotic co-op cooking game where players work together to prepare and serve food under extreme conditions.",
     "price": "2500",
     "rating": "4"
 }

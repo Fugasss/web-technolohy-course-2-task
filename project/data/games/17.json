@@ -3,6 +3,7 @@
     "name": "Subnautica",
     "imgs": ["subnautica.jpg", "subnautica2.jpg", "subnautica3.jpg"],
     "full_description": "Subnautica takes you to an alien ocean world where you must survive, build, and uncover secrets in the depths.",
+    "short_description": "An underwater open-world survival adventure game.",
     "price": "3500",
     "rating": "5"
 }

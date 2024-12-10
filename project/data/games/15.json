@@ -3,6 +3,7 @@
     "name": "DOOM Eternal",
     "imgs": ["doometernal.jpg", "doometernal2.jpg", "doometernal3.jpg"],
     "full_description": "DOOM Eternal is the ultimate combination of speed and power, offering an intense and satisfying combat experience.",
+    "short_description": "A fast-paced first-person shooter where you battle demonic forces.",
     "price": "4500",
     "rating": "5"
 }

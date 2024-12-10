@@ -3,6 +3,7 @@
     "name": "Slay the Spire",
     "imgs": ["slaythespire.jpg", "slaythespire_2.webp", "slaythespire_3.jpg"],
     "full_description": "Slay the Spire combines card games and roguelikes to create a unique experience. Craft a deck, face powerful foes, and uncover the secrets of the spire.",
+    "short_description": "A deck-building roguelike game where you battle your way through a mysterious spire.",
     "price": "2000",
     "rating": "3"
 }

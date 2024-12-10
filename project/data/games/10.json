@@ -3,6 +3,7 @@
     "name": "Among Us",
     "imgs": ["amongus.jpg", "amongus2.jpg", "amongus3.jpg"],
     "full_description": "Play as a crewmate or an impostor on a spaceship in this social deduction game. Complete your tasks or deceive others to win.",
+    "short_description": "A multiplayer game where players work together to complete tasks while impostors try to sabotage them.",
     "price": "500",
     "rating": "4"
 }

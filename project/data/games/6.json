@@ -3,6 +3,7 @@
     "name": "Minecraft",
     "imgs": ["minecraft.png", "minecraft2.png", "minecraft3.jpg"],
     "full_description": "Minecraft allows players to craft and build structures from textured cubes in a 3D procedurally generated world. Other activities include exploration, resource gathering, crafting, and combat.",
+    "short_description": "A sandbox game that lets players build, explore, and survive in a blocky, procedurally generated 3D world.",
     "price": "2600",
     "rating": "5"
 }
